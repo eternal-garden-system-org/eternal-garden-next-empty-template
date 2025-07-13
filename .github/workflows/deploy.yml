@@ -9,7 +9,6 @@ jobs:
     name: Deploy memorial site
     runs-on: ubuntu-latest
     concurrency: deploy-group
-    environment: production
     steps:
       - uses: actions/checkout@v4
       - uses: superfly/flyctl-actions/setup-flyctl@master
