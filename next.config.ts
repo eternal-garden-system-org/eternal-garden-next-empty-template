@@ -1,7 +1,6 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  basePath: "/nikolai-smirnov-1940",
   output: "standalone",
   images: {
     remotePatterns: [
