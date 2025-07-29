@@ -6,19 +6,7 @@ const nextConfig: NextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "eternal-garden.fly.io",
-      },
-      {
-        protocol: "https",
-        hostname: "img.youtube.com",
-      },
-      {
-        protocol: "https",
-        hostname: "zqqyhudmcjwubslcaznh.supabase.co",
-      },
-      {
-        protocol: "https",
-        hostname: "images.unsplash.com",
+        hostname: "*.supabase.co", // Production Supabase storage
       },
     ],
   },
