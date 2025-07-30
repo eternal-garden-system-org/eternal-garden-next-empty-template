@@ -15,7 +15,7 @@ export default function Home() {
     <PageLayout backgroundImage="/images/background.png">
       <Container>
         <MemorialHeader
-          fullName="Александр Викторович Карпук"
+          fullName="FIRST_NAME MIDDLE_NAME LAST_NAME"
           birthDate="1964-06-15"
           deathDate="2024-10-09"
           photoUrl="https://zqqyhudmcjwubslcaznh.supabase.co/storage/v1/object/public/memorial_photos/memorial/l_i25vXr5z2_g-o9AtgBp.png"

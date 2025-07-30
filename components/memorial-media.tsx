@@ -25,7 +25,7 @@ const mediaData = {
     },
   ],
   audio: {
-    title: "Песня Александра",
+    title: "Песня FIRST_NAME",
     src: "https://examplefiles.org/files/audio/mp3-example-file-download-1min.mp3", // Внешняя ссылка на mp3-файл
   },
 };

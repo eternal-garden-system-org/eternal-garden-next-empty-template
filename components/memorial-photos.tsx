@@ -21,22 +21,22 @@ const photosData = [
   {
     id: "1",
     url: "https://images.unsplash.com/photo-1556745753-b2904692b3cd?q=80&w=3267&auto=format&fit=crop",
-    alt: "Александр на отдыхе в горах",
+    alt: "FIRST_NAME на отдыхе в горах",
   },
   {
     id: "2",
     url: "https://images.unsplash.com/photo-1568602471122-7832951cc4c5?q=80&w=3270&auto=format&fit=crop",
-    alt: "Портрет Александра",
+    alt: "Портрет FIRST_NAME",
   },
   {
     id: "3",
     url: "https://images.unsplash.com/photo-1499714608240-22fc6ad53fb2?q=80&w=3276&auto=format&fit=crop",
-    alt: "Александр с сыном",
+    alt: "FIRST_NAME с сыном",
   },
   {
     id: "4",
     url: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=3276&auto=format&fit=crop",
-    alt: "Александр с внучкой",
+    alt: "FIRST_NAME с внучкой",
   },
   {
     id: "5",
