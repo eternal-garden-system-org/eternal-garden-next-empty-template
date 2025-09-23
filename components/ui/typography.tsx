@@ -6,7 +6,7 @@ function H1({ className, ...props }: ComponentProps<"h1">) {
     <h1
       className={cn(
         "scroll-m-20 text-3xl font-extrabold leading-tight tracking-tight lg:text-4xl",
-        className
+        className,
       )}
       {...props}
     />
@@ -18,7 +18,7 @@ function H2({ className, ...props }: ComponentProps<"h2">) {
     <h2
       className={cn(
         "scroll-m-20 pb-2 text-2xl font-semibold leading-tight tracking-tight first:mt-0",
-        className
+        className,
       )}
       {...props}
     />
@@ -30,7 +30,7 @@ function H3({ className, ...props }: ComponentProps<"h3">) {
     <h3
       className={cn(
         "scroll-m-20 text-xl font-semibold leading-tight tracking-tight",
-        className
+        className,
       )}
       {...props}
     />
@@ -42,7 +42,7 @@ function H4({ className, ...props }: ComponentProps<"h4">) {
     <h4
       className={cn(
         "scroll-m-20 text-lg font-semibold leading-tight tracking-tight",
-        className
+        className,
       )}
       {...props}
     />
@@ -50,15 +50,7 @@ function H4({ className, ...props }: ComponentProps<"h4">) {
 }
 
 function P({ className, ...props }: ComponentProps<"p">) {
-  return (
-    <p
-      className={cn(
-        "text-base leading-tight [&:not(:first-child)]:mt-5",
-        className
-      )}
-      {...props}
-    />
-  );
+  return <p className={cn("text-base leading-tight", className)} {...props} />;
 }
 
 function Large({ className, ...props }: ComponentProps<"div">) {
@@ -100,7 +92,7 @@ function InlineCode({ className, ...props }: ComponentProps<"code">) {
     <code
       className={cn(
         "relative rounded bg-muted px-[0.3rem] py-[0.2rem] font-mono text-sm font-semibold",
-        className
+        className,
       )}
       {...props}
     />
@@ -112,7 +104,7 @@ function List({ className, ...props }: ComponentProps<"ul">) {
     <ul
       className={cn(
         "my-5 ml-6 list-disc text-base leading-tight [&>li]:mt-2",
-        className
+        className,
       )}
       {...props}
     />
