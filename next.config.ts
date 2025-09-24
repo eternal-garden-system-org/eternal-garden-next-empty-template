@@ -8,6 +8,18 @@ const nextConfig: NextConfig = {
         protocol: "https",
         hostname: "*.supabase.co", // Production Supabase storage
       },
+      {
+        protocol: "https",
+        hostname: "img.youtube.com",
+        port: "",
+        pathname: "/**",
+      },
+      {
+        protocol: "https",
+        hostname: "images.unsplash.com",
+        port: "",
+        pathname: "/**",
+      },
     ],
   },
 };
