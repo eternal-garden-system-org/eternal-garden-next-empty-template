@@ -14,14 +14,15 @@ export function PageLayout({
 }: PageLayoutProps) {
   return (
     <div className={cn("relative flex min-h-screen flex-col", className)}>
-      <div
+      {/*Пример фиксированного полноэкранного фона*/}
+      {/*<div
         className="fixed inset-0 -z-20 bg-cover bg-center bg-no-repeat"
         style={{
           backgroundImage: `url(${backgroundImage})`,
           opacity: 0.6,
           mixBlendMode: "soft-light",
         }}
-      />
+      />*/}
 
       <main className="relative flex min-h-[100vh] flex-1 flex-col" role="main">
         {children}
